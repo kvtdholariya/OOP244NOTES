@@ -14,11 +14,11 @@ struct Student {
 
 int main() {
     int n;
-    Student* student = nullptr;
+    Student* student = nullptr; //created student pointer and set it to nullptr to avoid memory issues
 
-    cout << "Enter the number of students : ";
-    cin >> n;
-    student = new Student[n];
+    cout << "Enter the number of students : "; //promt for the user input 
+    cin >> n; //sets user input in to the integer n
+    student = new Student[n]; //allocates dynamic memory 
 
     for (int i = 0; i < n; i++) {
         cout << "Student Number: ";
