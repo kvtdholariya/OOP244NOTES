@@ -1,3 +1,5 @@
+//Kavita Dholarita
+//Purpose:understand the C++ class and objects
 #include <iostream>
 using namespace std;
 
@@ -19,7 +21,6 @@ box::box(double a, double b, double c)
 	volume = length * width * height;
 }
 
-
 void box::vol()
 {
 	cout << "\nDimensions of Box are :: \n";
@@ -28,7 +29,6 @@ void box::vol()
 	cout << "\nHeight of Box :: " << height << "\n";
 	cout << "\nVolume of Box :: " << volume << "\n";
 }
-
 
 int main()
 {
