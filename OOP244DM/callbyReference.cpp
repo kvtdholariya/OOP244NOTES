@@ -4,9 +4,9 @@ This example is for the leraning perpose only*/
 #include <iostream>
 using namespace std;
 
-// function definition to swap values
-//this is taking the reference of the variables as an arguments
-//so when ever we will call this function actual values will be modified 
+//Function definition to swap values
+//This is taking the reference of the variables as an arguments
+//When ever we will call this function actual values will be modified 
 void swap(int& x, int& y) {
     int temp;
     temp = x;
