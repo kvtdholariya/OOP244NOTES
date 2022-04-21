@@ -1,3 +1,5 @@
+//Purpose: learn C++ in details
+//Kavita Dholariya
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <string>
