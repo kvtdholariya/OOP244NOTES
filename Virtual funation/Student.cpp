@@ -1,15 +1,16 @@
 // Student.cpp
+//Kavita Dholariya 
 
 #include <cstring>
 #include "Student.h"
 using namespace std;
 
 Person::Person() {
-    name[0] = '\0';
+    name[0] = '\0'; //null terminated character
 }
 
 Person::Person(const char* nm) {
-    strncpy(name, nm, NC);
+    strncpy(name, nm, NC); //copy upto to len characters
     name[NC] = '\0';
 }
 
