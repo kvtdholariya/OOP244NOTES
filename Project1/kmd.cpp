@@ -12,7 +12,7 @@ public:
 	box(double a, double b, double c);
 	void vol();
 };
-
+//
 box::box(double a, double b, double c)
 {
 	length = a;
